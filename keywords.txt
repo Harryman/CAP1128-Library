@@ -1,0 +1,43 @@
+# file generated using https://github.com/Harryman/Arduino-header-keyword-creator
+##################################
+# Class Name
+##################################
+CAP1128	KEYWORD1
+
+##################################
+# Methods/Functions 
+##################################
+transInit	KEYWORD2
+endTrans	KEYWORD2
+pointReg	KEYWORD2
+writeCom	KEYWORD2
+writeReg	KEYWORD2
+readCom	KEYWORD2
+readReg	KEYWORD2
+setBits	KEYWORD2
+reset	KEYWORD2
+prodID	KEYWORD2
+manufactID	KEYWORD2
+revID	KEYWORD2
+genStat	KEYWORD2
+deltaCount	KEYWORD2
+clrInt	KEYWORD2
+stby	KEYWORD2
+dSleep	KEYWORD2
+repeatRate	KEYWORD2
+minPress	KEYWORD2
+setMainGain	KEYWORD2
+deltaSense	KEYWORD2
+avgSamples	KEYWORD2
+sampleDur	KEYWORD2
+cycleTime	KEYWORD2
+recalNoiseThres	KEYWORD2
+inputEnable	KEYWORD2
+intEnable	KEYWORD2
+repeatEnable	KEYWORD2
+btnThres	KEYWORD2
+maxTouches	KEYWORD2
+multiEnable	KEYWORD2
+multiThres	KEYWORD2
+multiIntEnable	KEYWORD2
+multiPtrn	KEYWORD2
