@@ -62,8 +62,8 @@ uint8_t CAP1128::readReg(uint8_t reg, uint8_t message){ //full command transacti
 	digitalWrite(_csPin,HIGH);
 	return ret;
 }
-
-//reg address, data(not shifted), length in bits, starting bit 0 indexed from LSB
+ 
+	//reg address, data(not shifted), length in bits, starting bit 0 indexed from LSB
 uint8_t CAP1128::setBits(uint8_t reg, uint8_t bits, uint8_t len, uint8_t start){
 	uint8_t offset = (start+1)-len; // determines how far the data has to be shifted
 	uint8_t mask = ((1 << len) - 1) << offset;// creates a bit mask for the data
