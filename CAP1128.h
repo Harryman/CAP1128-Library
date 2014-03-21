@@ -27,6 +27,8 @@ class CAP1128{
     uint8_t prodID();
     uint8_t manufactID();
     uint8_t revID();
+    uint8_t btnStat();
+    uint8_t genStat();
     uint8_t noiseFlag();
     int8_t deltaCount(uint8_t btn);//btn 1-8 returns delta
     uint8_t clrInt(); //clears interrupt pin 

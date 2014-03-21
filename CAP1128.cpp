@@ -109,11 +109,11 @@ uint8_t CAP1128::revID(){
 }
 
 ////////////// core functionality functions 
-uint8_t CAP1128::genStat();
+uint8_t CAP1128::genStat(){
 	return readReg(0x2);
 }
 
-uint8_t CAP1128::btnStat();
+uint8_t CAP1128::btnStat(){
 	return readReg(0x3);
 }
 
